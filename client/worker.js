@@ -3,7 +3,7 @@ self.addEventListener("push", e => {
     console.log("Push Recieved...");
     self.registration.showNotification(data.title, {
         body: "Catering zaprasza na jedzenie",
-        icon: "http://image.ibb.co/frYOFd/tmlogo.png"
+
 
     });
 });
